@@ -1,14 +1,22 @@
+
 body,
 html {
   width: 100%;
-  height: 100%;
+  height: 100%; 
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
 .faded {
-  color: black; 
+  color: rgba(255, 255, 255, 0.8); 
 }
 
 header.startup {
@@ -18,17 +26,20 @@ header.startup {
   height: 100%;
 }
 
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
 header.startup h1 {
-  font-size: 2rem;
-  margin-bottom: 50px; 
+  font-size: 2rem; 
 }
 
 .btn {
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 .btn-xl {
@@ -36,18 +47,13 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: transparent;
-  color: red;
-  border: 2px solid red;
-}
+  background-color: #F05F44;
+  border-color: #F05F44; }
 
 .btn-primary:hover {
-  background-color: red;
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
   cursor: pointer;
-  margin: 0;
-  border: 2px solid red;
 }
-
-.btn-primary:focus {
-  box-shadow: 0 0 0 2px red;
-}
+  
